@@ -9,7 +9,7 @@ export default function DetailedFooter() {
         {/* Branding */}
         <div className="col-span-1 flex flex-col gap-2">
           <div className="font-heading text-2xl font-extrabold text-accent mb-2">
-            Dev<span className="text-white">Portfolio</span>
+            Nakola<span className="text-white">Dev</span>
           </div>
           <p className="text-neutral-400 text-sm">
             Cutting-edge developer experiences. Engaging, immersive, and modern digital solutions.
@@ -60,7 +60,7 @@ export default function DetailedFooter() {
         </div>
       </div>
       <div className="border-t border-neutral-800 mt-8 pt-4 text-xs text-center opacity-70">
-        &copy; {new Date().getFullYear()} Dev Portfolio. Crafted with <span className="text-accent">♥</span>
+        &copy; {new Date().getFullYear()} Nakola Dev. Crafted with <span className="text-accent">♥</span>
       </div>
     </footer>
   );

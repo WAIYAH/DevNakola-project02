@@ -11,7 +11,7 @@ export default function SiteHeader() {
           to="/"
           className="font-heading text-2xl md:text-3xl font-extrabold tracking-widest text-accent flex items-center gap-2"
         >
-          Dev<span className="text-white ml-1">Portfolio</span>
+          Nakola<span className="text-white ml-1">Dev</span>
         </Link>
         <nav className="hidden md:flex space-x-6 font-medium text-lg">
           <a href="#home" className="hover:text-accent transition-colors">Home</a>
