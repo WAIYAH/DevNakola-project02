@@ -1,73 +1,71 @@
-# Welcome to your Lovable project
 
-## Project info
+# Nakola Dev
 
-**URL**: https://lovable.dev/projects/84fb6e64-fe37-49b1-8289-a30ad11fdcbf
+Welcome to the Nakola Dev Portfolio!  
+A modern and visually engaging developer portfolio template.
 
-## How can I edit this code?
+## Project Info
 
-There are several ways of editing your application.
+**URL:** https://lovable.dev/projects/84fb6e64-fe37-49b1-8289-a30ad11fdcbf
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/84fb6e64-fe37-49b1-8289-a30ad11fdcbf) and start prompting.
+## Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Striking Header & Navigation:**  
+  Prominently branded "Nakola Dev" header with clear, easy navigation.
+- **Responsive Design:**  
+  Fully mobile-friendly for great experiences on all devices.
+- **Hero Section:**  
+  Animated headline, professional tagline, and two call-to-action buttons (“Explore My Work” and “View Pricing”) to guide visitors to your most important sections.
+- **"Why Choose Us" Section:**  
+  Immediately after the hero, explains what makes Nakola Dev unique.
+- **Project Showcase:**  
+  Attractive project grid to highlight your work.
+- **Pricing Section:**  
+  Clearly communicates pricing, displayed intelligently after the project showcase.
+- **Statistics Section:**  
+  Displays key metrics/stats to build trust and credibility.
+- **Detailed Footer:**  
+  Includes contact info, social links, navigation shortcuts, and branding.
+- **Cutting-edge Styling:**  
+  Built with Tailwind CSS & shadcn/ui components for a modern, elegant look.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Editing The Site
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**Using Lovable:**  
+Visit the [Lovable Project](https://lovable.dev/projects/84fb6e64-fe37-49b1-8289-a30ad11fdcbf) and prompt edits directly.
 
-Follow these steps:
+**From your IDE:**  
+- Clone this repo, install dependencies, and run `npm run dev`.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+**Direct file edits:**  
+Edit and commit files via GitHub or use Codespaces. See Lovable documentation for details.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Technology Stack
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- [Vite](https://vitejs.dev/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Lucide Icons](https://lucide.dev/)
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Deployment & Custom Domain
 
-**Use GitHub Codespaces**
+- Click **Publish** in Lovable to deploy instantly.
+- For a custom domain, visit Project → Settings → Domains.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## License
 
-This project is built with:
+Copyright © {current year} Nakola Dev.  
+Personal/portfolio project. See LICENSE for details.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/84fb6e64-fe37-49b1-8289-a30ad11fdcbf) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
