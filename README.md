@@ -6,7 +6,7 @@ A modern and visually engaging developer portfolio template.
 
 ## Project Info
 
-**URL:** https://lovable.dev/projects/84fb6e64-fe37-49b1-8289-a30ad11fdcbf
+**URL:** https://dev-nakola-project02.vercel.app/
 
 ---
 
@@ -31,12 +31,6 @@ A modern and visually engaging developer portfolio template.
 - **Cutting-edge Styling:**  
   Built with Tailwind CSS & shadcn/ui components for a modern, elegant look.
 
----
-
-## Editing The Site
-
-**Using Lovable:**  
-Visit the [Lovable Project](https://lovable.dev/projects/84fb6e64-fe37-49b1-8289-a30ad11fdcbf) and prompt edits directly.
 
 **From your IDE:**  
 - Clone this repo, install dependencies, and run `npm run dev`.
