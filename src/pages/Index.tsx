@@ -1,14 +1,30 @@
-// Update this page (the content is just a fallback if you fail to update the page)
 
-const Index = () => {
+// Home page for developer portfolio – cutting-edge, immersive.
+
+import Hero from "@/components/Hero";
+import ProjectGrid from "@/components/ProjectGrid";
+import SkillsNetwork from "@/components/SkillsNetwork";
+import ContactForm from "@/components/ContactForm";
+import CursorEffects from "@/components/CursorEffects";
+import ScrollProgress from "@/components/ScrollProgress";
+
+export default function Index() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="relative bg-neutral-950 text-white font-body overflow-x-hidden min-h-screen">
+      <CursorEffects />
+      <ScrollProgress />
+      {/* Hero Section */}
+      <Hero />
+      {/* Projects */}
+      <ProjectGrid />
+      {/* Skills */}
+      <SkillsNetwork />
+      {/* Contact */}
+      <ContactForm />
+      <footer className="py-7 text-center text-neutral-500 text-xs opacity-60 select-none">
+        &copy; {new Date().getFullYear()} Dev Portfolio. Made with{" "}
+        <span className="text-accent">♥</span>
+      </footer>
+    </main>
   );
-};
-
-export default Index;
+}
